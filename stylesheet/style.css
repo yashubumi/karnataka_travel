@@ -1,0 +1,50 @@
+
+.back{
+    background-image:url('../images/IMAGES/kali-river.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100%
+
+
+}
+
+.btn{
+  font-size:5rem;
+  padding:10px 20px;
+  margin-left: 62rem;
+}
+ .h1{
+  /* margin-left: 27rem;*/
+ margin-top:20rem;
+  color: blue;
+  font-family: 'Bangers';font-size: 35px;
+    text-align: center;
+
+
+}
+.h2{
+  font-family: 'Marck script';
+  font-size: 35px;
+  color:red;
+   /*margin-left: 3rem;*/
+     text-align: center;
+}
+.b
+{
+  margin-top:10rem;
+  margin-left: centre;
+
+}
+.b{
+  color:black;
+}
+
+#heading{
+  font-family:'lily script one';
+  font-size:7rem;
+  text-align: center;
+  margin: 0;
+color: black;
+}
