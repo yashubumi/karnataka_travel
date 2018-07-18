@@ -14,12 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -40,7 +35,7 @@ body {
   padding: 20px 0 30px 0;
 }
 
-/* style inputs and link buttons */
+
 input,
 .btn {
   width: 100%;
@@ -52,7 +47,7 @@ input,
   display: inline-block;
   font-size: 17px;
   line-height: 20px;
-  text-decoration: none; /* remove underline from anchors */
+  text-decoration: none;
 }
 
 input:hover,
@@ -157,19 +152,19 @@ input[type=submit]:hover {
 
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
+  <div class="container-fluid" id="navigation">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">Tourism</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="enterpage.html">Home</a></li>
-      <li class="active">  <a href="#">Images</a></li>
+      <li class="active">  <a href="gallery.html">Images</a></li>
           <li class="active"><a href="#">Contact</a></li>
-              <li class="active"><a href="#">About</a></li>
+              <li class="active"><a href="contact.html">About</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="enterpage.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
   </div>
 </nav>
@@ -213,15 +208,31 @@ input[type=submit]:hover {
   </form>
 </div>
 
-<div class="bottom-container">
-  <div class="row">
-    <div class="col">
-      <a href="#" style="color:white" class="btn">Sign up</a>
-    </div>
-    <div class="col">
-      <a href="#" style="color:white" class="btn">Forgot password?</a>
-    </div>
+<div class="footer">
+  <div class="row" id="gallery">
+  <div class="col-md-4 col-xs-12">
+         <h6 class="text-uppercase mb-4 font-weight-bold" id="main2">Places</h6>
+         <p>Mysore</p>
+         <p>Hampi</p>
+         <p>Manglore</p>
+         <p>Madekeri</p>
+         <p>Bigapur</p>
   </div>
+<div class="col-md-4 col-xs-12">
+                <h6 class="text-uppercase mb-4 font-weight-bold" id='main2'>Serives</h6>
+                <p>Train reservations</p>
+                <p>Bus reservations</p>
+                <p>Jungle lodges</p>
+                  <p>Resorts</p>
+
+    </div>
+    <div class="col-md-4 col-xs-12">
+             <h6 class="text-uppercase mb-4 font-weight-bold" id="main2">Contact</h6>
+             <p><span class="glyphicon glyphicon-earphone"> Phone no:</span> +919008645755</p>
+              <p><span class="  glyphicon glyphicon-envelope"></span> emali:KTO@gmail.com</p>
+
+</div>
+
 </div>
 
 </body>
