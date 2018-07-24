@@ -1,4 +1,3 @@
-
 #topnav ul{
   list-style: none;
   padding: 0px;
@@ -49,7 +48,6 @@ text-decoration: underline;
   z-index: 999;
 }
 
-
 #body1
 {
   background-image: url("../images/back3.jpg");
@@ -59,13 +57,15 @@ text-decoration: underline;
 
 #navigation li a{
   font-size:2rem;
+  font-family: 'Bangers';
   color:white;
 }
-#navigation li a:hover{
-    font-size:1.8rem;
+.active li a:hover{
+    font-size:2rem;
     font-variant: large-capital;
-background-color: blue;
-/*background-color: rgba(0,0,0,0);*/
+background-color: #4CAF50;
+ color: white;
+
 }
 .back{
    background-image:url('../images/IMAGES/kali-river.jpg');
@@ -80,7 +80,8 @@ background-color: blue;
 
 
  #heading1{
-   font-family:'Abril Fatface', cursive;.
+   font-family:'Abril Fatface', cursive;
+   font-family: 'Bangers';font-size: 35px;
 
    font-size:7rem;
    text-align: center;
@@ -173,14 +174,14 @@ color: black;
   font-size:5rem;
   text-align: center;
 color: white;
+text-underline-position:below;
 }
 #main2{
   font-family:'Farsan', cursive;;
   font-size:3rem;
   text-align: center;
 color: white;
-text-transform: capitalize;
-text-underline-position:below;
+
 }
 .footer {
    position: bottom;
@@ -202,5 +203,5 @@ text-underline-position:below;
 
 }
 #whole{
-  background-color: black;
+  background-color:black;
 }

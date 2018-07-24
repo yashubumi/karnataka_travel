@@ -1,0 +1,37 @@
+<br><br
+
+>
+<div class="btn btn-default btn-sm"><span class="glyphicon glyphicon-search"></span>
+  <input type="text" name="" value="" ng-model="search"></div>
+
+  <div class="row " id="center">
+
+
+    <div class="col-md-offset-3 col-md-6 col-xs-12 ">
+
+      <table class="table">
+        <tr>
+          <td>
+            <b>Places</b>
+          </td>
+          <td>
+            <b>Packages</b>
+          </td>
+          <td>
+              <b>Price</b>
+          </td>
+          <td>
+              <b>days</b>
+          </td>
+
+        </tr>
+        <tr ng-repeat="d in datas | filter:search | orderBy:sort">
+          <td>{{d.places}}</td>
+          <td>{{d.packages}}</td>
+          <td>{{d.price}}</td>
+          <td>{{d.days }}</td>
+  |
+        </tr>
+    </table>
+</div>
+</div>

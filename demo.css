@@ -1,0 +1,227 @@
+
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.75;
+}
+#whole{
+  background-color: black;
+}
+
+a {
+  color: #228B22;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Backgrounds */
+
+.bg-holder {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #fff;
+}
+
+.bg-holder .content {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.bg-holder .content h2 {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.bg-holder#pic1 {
+  background-image: url('../images/wedding/weddingnew.jpg');
+}
+
+.bg-holder#pic2 {
+  background-image: url('../images/wedding/m6.jpg');
+}
+
+.bg-holder#pic3 {
+  background-image: url('../images/wedding/m5.jpeg');
+}
+
+
+/* Content Sections */
+
+section {
+  padding: 48px;
+background-color: white;
+}
+
+section .content {
+
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+.content h2 {
+  margin: 0 0 16px;
+  font-size: 16px;
+}
+
+section p {
+  margin: 0;
+}
+
+section p + p {
+  text-indent: 2em;
+}
+
+section + hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  height: 0;
+}
+
+section .gist {
+  margin: 24px 0;
+}
+
+section .gist .gist-data {
+  border-bottom: 0;
+}
+
+section .gist-meta {
+  display: none;
+}
+
+.content code {
+  font-family: monospace, serif;
+  font-size: 14px;
+  color: gray;
+  vertical-align: 1px;
+  white-space: nowrap;
+}
+
+
+/* Intro */
+
+#intro h1 {
+  font-family:'Chela One', cursive;
+  margin: 0;
+  font-size: 100px;
+  line-height: 1.5;
+}
+
+#intro p {
+  margin: 0;
+  font-size: 24px;
+}
+
+#cta {
+  margin-top: 32px;
+}
+
+.cta {
+  color: #fff;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 0 4px;
+  text-decoration: none;
+}
+
+.cta:hover {
+  background-color: white;
+  color: #228B22;
+  text-decoration: none;
+}
+
+
+/* Footer */
+
+#footer {
+  text-align: center;
+}
+
+#social {
+  margin: 16px;
+  list-style: none;
+}
+
+#social li {
+  display: inline-block;
+  margin: 8px;
+}
+
+
+
+
+
+#head h1{
+  background-color: black;
+  color:white;
+  font-family:'Great Vibes',cursive ;
+  height:5%;
+  font-size:60px;
+  text-align:center;
+}
+
+#subtitle h4{
+
+  color:#76b85d ;
+  font-family: 'Pacifico', cursive;
+  height:10%;
+  right:50%;
+  font-size:20px;
+  height:-50px;
+}
+#nav ul {list-style: none;padding: 0px;margin: 0px;}
+#nav  ul li {display: block;position: relative;float: right;width: 13%;background-color: black;}
+#nav  li ul {display: none;}
+#nav  ul li a {display: block;padding: 5px 10px 5px 10px;text-decoration: none;font-size: 2rem;;
+  font-family:'Londrina Outline', cursive;
+           white-space: nowrap;color: white;}
+#nav  ul li a:hover {font-size:22px;text-decoration: underline;}
+  #nav li:hover ul {display: block; position: absolute;}
+  #nav li:hover li {float: none;}
+  #nav li:hover a {}
+  #nav li:hover li a:hover {font-size:15px;}
+  #nav  li ul li a{border-top: 0px;
+
+                    font-size:15px;}
+  #nav  li ul li a:hover{
+                                     }
+
+#nav #drop ul li ul{
+position: relative;
+  z-index: 999;
+}
+#footer{
+  font-family:  'Oleo Script', cursive;
+  background-color: #262626;
+  color:#dcdcdc;
+}
+#footer h3{
+  text-align: left;
+  font-size: 1.5rem;
+}
+#para,#para1,#para2 p{
+  font-family:'Merienda', cursive;
+}
+#para h6{
+  font-size:50px;
+  font-family: 'Great Vibes',cursive ;
+}
