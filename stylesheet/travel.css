@@ -1,0 +1,189 @@
+
+#topnav ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+#topnav ul li{
+  display: block;
+  position: relative;
+  float: right;
+  width: 13%;
+  align-items: center;
+}
+#topnav li ul{
+  display: none;
+}
+#topnav ul li a{
+   font-family:'Abril Fatface', cursive;
+  display: block;
+ padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  white-space: nowrap;
+}
+#topnav ul li a:hover{
+  font-size: 22px;
+text-decoration: underline;
+
+}
+#topnav li:hover ul{
+  display: block;
+  position: absolute;
+}
+#topnav li:hover li{
+  float: none;
+}
+
+#topnav li:hover li a:hover
+{
+  font-size: 15px;
+}
+#topnav li ul li a{
+  border-top: 0px;
+  font-size: 18px;
+}
+#topnav #drop ul li ul{
+  position: relative;
+  z-index: 999;
+}
+
+#heading{
+  font-family:'Roboto', sans-serif;
+  font-size:7rem;
+  text-align: center;
+  margin: 0;
+color: black;
+}
+
+#info{
+  font-family:'Farsan', cursive;;
+  font-size:3rem;
+  text-align: center;
+  padding-top: 1rem;
+  margin: 0;
+color: white;
+}
+
+
+#info1{
+  font-family:'Farsan', cursive;;
+  font-size:3rem;
+  text-align: center;
+  padding-top: 1rem;
+  margin: 0;
+color: black;
+}
+
+#main1{
+  font-family:'Farsan', cursive;
+  font-size:5rem;
+  text-align: center;
+color: white;
+}
+#main2{
+  font-family:'Farsan', cursive;;
+  font-size:3rem;
+  text-align: center;
+color: white;
+text-transform: capitalize;
+text-underline-position:below;
+}
+.footer {
+   position: bottom;
+   width: 100%;
+   height: 50%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+.container3{
+   background-image:url('../images/IMAGES/dandeli.jpg');
+   background-size:cover;
+   background-position:center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width:100%
+
+
+}
+#whole{
+  background-color: black;
+}
+#center div {
+  height: 100vh;
+  margin-top:45px;
+}
+
+.textFormat{
+  font-size: 1.7rem;
+  color:black;
+   background-color: white;
+
+}
+.textFormat h1{
+  text-align: center;
+  border-bottom: 2px solid black;
+    margin-bottom: 0rem;
+    background-color: white;
+   font-family: 'Josefin Sans', sans-serif;
+   padding:2rem;
+}
+
+
+.textFormat p{
+  margin-bottom: 0rem;
+  padding:2rem;
+  background-color: white;
+font-family: 'Josefin Slab', serif;
+
+}
+#air{
+
+  background-image: url('../images/air_india.jpg');
+  background-attachment: fixed;
+ background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+#bus{
+  background-image: url('../images/bus.jpg');
+  background-attachment: fixed;
+ background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+#train{
+  background-image: url('../images/train.jpg');
+  background-attachment: fixed;
+ background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+#cab{
+  background-image: url('../images/cab.jpg');
+  background-attachment: fixed;
+ background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+
+#center1 div{
+  height: 100vh;
+  margin-top: 60px;
+}
+
+ #heading1{
+  font-family: 'Josefin Sans', sans-serif;
+   font-size:8rem;
+   text-align: center;
+   margin: 0;
+ color: black;
+
+}

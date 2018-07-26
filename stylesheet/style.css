@@ -15,7 +15,7 @@
   display: none;
 }
 #topnav ul li a{
-   font-family:'Abril Fatface', cursive;
+ font-family: 'Josefin Sans', sans-serif;
   display: block;
  padding: 5px 10px 5px 10px;
   text-decoration: none;
@@ -80,7 +80,7 @@ background-color: blue;
 
 
  #heading1{
-   font-family:'Abril Fatface', cursive;.
+   font-family: 'Josefin Sans', sans-serif;
 
    font-size:7rem;
    text-align: center;
@@ -152,7 +152,7 @@ color: black;
 #info{
   font-family:'Farsan', cursive;;
   font-size:3rem;
-  text-align: center;
+  text-align: justify;
   padding-top: 1rem;
   margin: 0;
 color: white;
@@ -160,7 +160,7 @@ color: white;
 
 
 #info1{
-  font-family:'Farsan', cursive;;
+  font-family:'Farsan', cursive;
   font-size:3rem;
   text-align: center;
   padding-top: 1rem;
@@ -168,19 +168,36 @@ color: white;
 color: black;
 }
 
+#main{
+  font-family:'Farsan', cursive;
+  font-size:5rem;
+  text-align: center;
+color: white;
+
+}
+
 #main1{
   font-family:'Farsan', cursive;
   font-size:5rem;
   text-align: center;
 color: white;
+text-decoration: underline;
 }
 #main2{
-  font-family:'Farsan', cursive;;
+  font-family:'Farsan', cursive;
   font-size:3rem;
   text-align: center;
 color: white;
 text-transform: capitalize;
 text-underline-position:below;
+}
+
+#main3{
+  font-family:'Farsan';
+  font-size:3rem;
+  text-align: center;
+color: white;
+
 }
 .footer {
    position: bottom;
@@ -204,3 +221,11 @@ text-underline-position:below;
 #whole{
   background-color: black;
 }
+
+/*<li><a href="#">Services</a>
+
+<ul id=drop-nav>
+  <li><a href="travel.html"></a></li>
+  <li><a href="hotel.html"></a></li>
+</ul>
+</li>*/
