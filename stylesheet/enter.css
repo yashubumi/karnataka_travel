@@ -177,9 +177,16 @@ color: white;
 text-underline-position:below;
 }
 #main2{
-  font-family:'Farsan', cursive;;
+  font-family:'Farsan', cursive;
   font-size:3rem;
   text-align: center;
+color: white;
+
+}
+#main3{
+  font-family:'Farsan', cursive;
+  font-size:10rem;
+
 color: white;
 
 }

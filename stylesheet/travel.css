@@ -1,13 +1,21 @@
+.float-img{
+  float:center;
+  margin-left: 0;
+  margin-bottom: 0;
+  border: solid white 5px;
+
+}
 
 #topnav ul{
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
+
 #topnav ul li{
   display: block;
   position: relative;
-  float: right;
+  float: left;
   width: 13%;
   align-items: center;
 }
@@ -15,16 +23,17 @@
   display: none;
 }
 #topnav ul li a{
-   font-family:'Abril Fatface', cursive;
+  font-family:'Farsan', cursive;
   display: block;
  padding: 5px 10px 5px 10px;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   white-space: nowrap;
+  padding-left: 5rem;
 }
 #topnav ul li a:hover{
-  font-size: 22px;
+  font-size: 3.5rem;
 text-decoration: underline;
 
 }
@@ -48,7 +57,6 @@ text-decoration: underline;
   position: relative;
   z-index: 999;
 }
-
 #heading{
   font-family:'Roboto', sans-serif;
   font-size:7rem;
@@ -76,19 +84,13 @@ color: white;
 color: black;
 }
 
-#main1{
-  font-family:'Farsan', cursive;
-  font-size:5rem;
-  text-align: center;
-color: white;
-}
-#main2{
-  font-family:'Farsan', cursive;;
+
+#main3{
+  font-family:'Farsan';
   font-size:3rem;
   text-align: center;
 color: white;
-text-transform: capitalize;
-text-underline-position:below;
+
 }
 .footer {
    position: bottom;

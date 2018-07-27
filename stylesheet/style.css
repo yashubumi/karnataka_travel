@@ -1,13 +1,21 @@
+.float-img{
+  float:center;
+  margin-left: 0;
+  margin-bottom: 0;
+  border: solid white 5px;
+
+}
 
 #topnav ul{
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
+
 #topnav ul li{
   display: block;
   position: relative;
-  float: right;
+  float: left;
   width: 13%;
   align-items: center;
 }
@@ -15,16 +23,17 @@
   display: none;
 }
 #topnav ul li a{
- font-family: 'Josefin Sans', sans-serif;
+  font-family:'Farsan', cursive;
   display: block;
  padding: 5px 10px 5px 10px;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   white-space: nowrap;
+  padding-left: 5rem;
 }
 #topnav ul li a:hover{
-  font-size: 22px;
+  font-size: 3.5rem;
 text-decoration: underline;
 
 }
@@ -141,6 +150,13 @@ background-color: blue;
   color:black;
 }
 
+#locations {
+  
+  background-color:white;
+  margin-bottom:20rem;
+   
+}
+
 #heading{
   font-family:'Roboto', sans-serif;
   font-size:7rem;
@@ -150,12 +166,14 @@ color: black;
 }
 
 #info{
-  font-family:'Farsan', cursive;;
-  font-size:3rem;
+  font-family:'Farsan', cursive;
+  font-size:2.5rem;
   text-align: justify;
   padding-top: 1rem;
   margin: 0;
 color: white;
+margin-left: 5rem;
+margin-right: 5rem;
 }
 
 

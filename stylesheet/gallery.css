@@ -1,3 +1,62 @@
+.float-img{
+  float:center;
+  margin-left: 0;
+  margin-bottom: 0;
+  border: solid white 5px;
+
+}
+
+#topnav ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#topnav ul li{
+  display: block;
+  position: relative;
+  float: left;
+  width: 13%;
+  align-items: center;
+}
+#topnav li ul{
+  display: none;
+}
+#topnav ul li a{
+  font-family:'Farsan', cursive;
+  display: block;
+ padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  font-size: 3rem;
+  color: white;
+  white-space: nowrap;
+  padding-left: 5rem;
+}
+#topnav ul li a:hover{
+  font-size: 3.5rem;
+text-decoration: underline;
+
+}
+#topnav li:hover ul{
+  display: block;
+  position: absolute;
+}
+#topnav li:hover li{
+  float: none;
+}
+
+#topnav li:hover li a:hover
+{
+  font-size: 15px;
+}
+#topnav li ul li a{
+  border-top: 0px;
+  font-size: 18px;
+}
+#topnav #drop ul li ul{
+  position: relative;
+  z-index: 999;
+}
 #navigation li a{
   font-size:2rem;
   color:white;
@@ -117,20 +176,13 @@ color: black;
   height:30rem;
 }
 
-#main1{
-  font-family:'Farsan', cursive;
-  font-size:5rem;
-  text-align: center;
-color: black;
-text-underline-position:below;
-}
-#main2{
-  font-family:'Farsan', cursive;;
+
+#main3{
+  font-family:'Farsan';
   font-size:3rem;
   text-align: center;
 color: white;
-text-transform: capitalize;
-text-underline-position:below;
+
 }
 .footer {
    position: bottom;

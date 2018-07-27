@@ -1,0 +1,126 @@
+
+#topnav ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#topnav ul li{
+  display: block;
+  position: relative;
+  float: left;
+  width: 13%;
+  align-items: center;
+}
+#topnav li ul{
+  display: none;
+}
+#topnav ul li a{
+  font-family:'Farsan', cursive;
+  display: block;
+ padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  font-size: 3rem;
+  color: white;
+  white-space: nowrap;
+  padding-left: 5rem;
+}
+#topnav ul li a:hover{
+  font-size: 3.5rem;
+text-decoration: underline;
+
+}
+#topnav li:hover ul{
+  display: block;
+  position: absolute;
+}
+#topnav li:hover li{
+  float: none;
+}
+
+#topnav li:hover li a:hover
+{
+  font-size: 15px;
+}
+#topnav li ul li a{
+  border-top: 0px;
+  font-size: 18px;
+}
+#topnav #drop ul li ul{
+  position: relative;
+  z-index: 999;
+}
+
+#main3{
+  font-family:'Farsan';
+  font-size:3rem;
+  text-align: center;
+color: white;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+#heading{
+  text-align: center;
+}
