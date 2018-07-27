@@ -2,34 +2,27 @@
 <head>
   <link rel="stylesheet" href="stylesheet/aboutus.css">
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
   <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ruthie" rel="stylesheet">
+  <script src="js/app.js" charset="utf-8"></script>
+  <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+ <!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <title>Slides</title>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="Made with WOW Slider - Create beautiful, responsive image sliders in a few clicks. Awesome skins and animations. Jquery carousel" />
+ <!-- Latest compiled JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
-	<script type="text/javascript" src="engine1/jquery.js"></script>
-	<!-- End WOWSlider.com HEAD section -->
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Farsan" rel="stylesheet">
 
 </head>
-<body style="background-color:black;">
+<body ng-app="myApp" ng-controller="myController" style="background-color:black;">
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div  id="topnav">
      <div id="drop" class="div1">
@@ -50,30 +43,35 @@
   <div id="mm">
     <img src="images1/B.JPG" >
   </div>
+  <h2 style="color:; margin-left:15%">Feed back form</h2>
 <div class="row">
    <div class="col-xs-offset-1 col-xs-3">
     <form>
         <div class="form-group">
         <label for="firstname"><h3>Your Name:</h3></label>
-        <input type="text" class="form-control" id="fn" placeholder="Your Name" name="first name">
+        <input type="text" class="form-control" id="fn" placeholder="Your Name" ng-model="name" name="first name">
       </div>
        <div class="form-group">
         <label for="email"><h3>Email:</h3></label>
-        <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+        <input type="email" class="form-control" id="email" placeholder="Email" ng-model="email" name="email">
       </div>
       <div class="form-group">
         <label for="phno"><h3>Phone Number:</h3></label>
-        <input type="text" class="form-control" id="ph" placeholder="Phone" name="phone number">
+        <input type="text" class="form-control" id="ph" placeholder="Phone" ng-model="phone"name="phone number">
       </div>
       <div class="form-group">
         <label for="comment"><h3>Message:</h3></label>
-        <textarea type="text" class="form-control" id="ad" placeholder="Message" name="address"></textarea>
+        <textarea type="text" class="form-control" id="ad" placeholder="Message" ng-model="address" name="address"></textarea>
       </div>
       <div>
-        <button class="button button2" type="submit" ><span>Send Message</span></a>
+        <a  class="btn btn-primary"type="submit" ng-click="submitFeedback()"><span>Send Message</span></a>
         </div>
     </form>
 </div>
+   <div class="col-xs-offset-1 col-xs-3">
+     <h2 style="color:white; margin-left:80%;">Location</h2>
+     <h3 style="color:white;margin-left:8rem; text-align:left;">115/B, 25th Cross Rd, 2nd Block, Rajaji Nagar,<br> Bengaluru, Karnataka 560010</h3>
+<iframe style=" margin-left:20%; "src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.617387567031!2d77.54934161423094!3d12.99630629083972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d8fcc8eb275%3A0xd13b2e264f4a9d50!2sHealth+%26+Glow!5e0!3m2!1sen!2sin!4v1532688476160" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>   </div>
 </div>
 <br>
     <div id="main3" class="footer" >

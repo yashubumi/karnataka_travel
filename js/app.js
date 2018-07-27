@@ -8,28 +8,24 @@ app.config(function($routeProvider){
     templateUrl:"packages.html"
   })
 });
-app.controller("myController",function($scope){
+app.controller("myController",function($scope,$http){
+    $http.get("http://localhost:3000/packages").then(function(response){
+        $scope.datas=response.data;
 
-  $scope.datas=[{
-    places:"Mysore",
-    packages:"Mysore,Banglore",
-    price:5000,
-    days:3
-    },{
-      places:"Manglore",
-      packages:"Manglore,chikmanglur",
-      price:4000,
-      days:2
-  },{
-    places:"Mysore",
-    packages:"Mysore,Mandya",
-    price:3000,
-    days:2
-  },{
-    places:"Manglore",
-    packages:"Manglore,Udapi",
-    price:5000,
-    days:3
-  }]
+    });
 
+    $scope.submitFeedback=function(){
+      let data={
+        name:$scope.name,
+        email:$scope.email,
+        phone:$scope.phone,
+        address:$scope.address
+          }
+
+          $http.post("http://localhost:3000/feedback",data).then(function(){
+
+            
+          });
+
+    }
 });
