@@ -1,0 +1,160 @@
+#book1{
+  font-family:'Farsan', cursive;
+  text-decoration: underline;
+  font-size: 2rem;
+  color: orange;
+  margin-top: 10px;
+
+}
+#book{
+  margin-top: 5px;
+  font-family:'Farsan', cursive;
+  font-size: 1.8rem;
+  color: black;
+
+}
+#book2{
+  font-family:'Farsan', cursive;
+  text-decoration: underline;
+  font-size: 2rem;
+  color: orange;
+  margin-top: 30px;
+
+}
+
+.item
+{
+	width: 100%;
+	margin-bottom: 46px;
+}
+.item:last-child
+{
+	margin-bottom: 0px;
+}
+.offers_image img
+{
+	width: 100%;
+}
+.image_container
+{
+	width: 100%;
+	height: 0%;
+}
+.image_background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.name
+{
+	position: absolute;
+	left: 0;
+	bottom: 27px;
+	width: 180px;
+	height: 33px;
+	background: orange;
+	overflow:visible;
+  margin-bottom: -300px;
+}
+.name a
+{
+  font-family:'Farsan', cursive;
+	display: block;
+	font-size: 20px;
+	font-weight: 700;
+	color:white;
+	text-transform: uppercase;
+	line-height: 35px;
+	padding-left: 22px;
+}
+.price
+{
+  font-family:'Farsan', cursive;
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 700;
+	color: #eda84a;
+	line-height: 25px;
+}
+.price span
+{
+	font-size: 14px;
+	font-weight: 400;
+	color: #929191;
+	margin-left: 12px;
+}
+.text
+{
+	font-size: 14px;
+	font-weight: 400;
+	color: #929191;
+	margin-top: 16px;
+	margin-bottom: 0px;
+}
+.book_button
+{
+	background: #31124b;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.book_button:hover
+{
+	opacity: 0.5;
+}
+
+.button
+{
+	display: inline-block;
+	height: 53px;
+	border-radius: 27px;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.button a
+{
+	display: block;
+	font-size: 13px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 53px;
+	padding-left: 46px;
+	padding-right: 46px;
+	white-space: nowrap;
+	z-index: 2;
+}
+.button span
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 5.75px;
+	height: 5.63px;
+	background:white;
+	border-radius: 50%;
+	margin-right: 2px;
+}
+.button span:first-child
+{
+	margin-left: 10px;
+}
+.button span:nth-child(2)
+{
+	opacity: 0.6;
+}
+.button span:last-child
+{
+	opacity: 0.4;
+	margin-right: 0px;
+}

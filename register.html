@@ -1,0 +1,209 @@
+<html>
+<head>
+  <link rel="stylesheet" href="stylesheet/gallery.css">
+  <link rel="stylesheet" href="stylesheet/style.css">
+  <link rel="stylesheet" href="stylesheet/footer.css">
+
+<meta name="tourism" content="" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Trade+Winds" rel="stylesheet">
+        <!--<link rel="stylesheet" href="stylesheet/style.css">-->
+<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lobster|Josefin+Slab|Lobster+Two|Coustard" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Markazi+Text" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Merienda|Oleo+Script" rel="stylesheet">
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<!--jquery sliding  -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="js/avail_js.js"></script>
+    <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Style inputs */
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    /* Style the container/contact section */
+    .container {
+        border-radius: 5px;
+        background-color: none;
+        padding: 10px;
+        /* background-image: url(./images/nature.jpg);
+    background-size: cover;
+    background-size: auto 100%;*/
+    }
+    h1.container {
+        color:white;
+        /* background-image: url(./images/nature.jpg);
+    background-size: cover;
+    background-size: auto 100%;*/
+    }
+    /* Create two columns that float next to eachother */
+    .column {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+        padding: 20px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column, input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+        }
+    }
+    #fi{
+      color:#31124b;
+      font-family: 'Dancing Script', cursive;
+      font-size: 2.2rem;
+
+    }
+    </style>
+<link rel="stylesheet" href="stylesheet/style.css">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+
+</head>
+
+<body ng-app="myApp" id="fbag">
+
+      <div class="row" style="background-color:#444444;" id="head">
+        <!--   <img class="col-xs-2"src="images/logopakka.jpg" alt="logo image" width="5%" height="15%">-->
+             <h1 class="col-xs-4">KARNATAKA TOURISM<h1></li>
+             </div>
+             <div class="row"  style="background-color:#444444;" id="subtitle">
+         <h4 class="col-xs-offset-4">
+           -one state many world...<h4></li>
+         </div>
+
+   <div>
+             <nav class="navbar navbar-inverse">
+               <div  id="topnav">
+                <div class="div1">
+                <ul>
+                  <li><a href="enterpage.html">Home</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                 <li><a href="travel.html">Services</a></li>
+                 <li><a href="cities.html">Packages</a></li>
+                 <li><a href="contact.html">Contact us</a></li>
+                 <li><a href="faq.html">Faq</a></li>
+                 <li><a href="feedback form.html">Feedback</a></li>
+                 <li><a href="aboutus.html">About us</a></li>
+            </ul>
+             </div>
+             </div>
+             </nav>
+
+<div  style="margin-left:450px;">
+                <div  class="form-container  col-xs-12 "    id="fi" ng-controller="myControllerRegister" >
+                <form   method="post" id="reused_form" >
+                  <div id="name" class="column" >
+                    <div class="form-group">
+                    <label for="fname">First Name</label>
+                    <input class="form-control" type="text" style="font-size:20px; color:black" id="fname" name="firstname" placeholder="first name.."  required ng-model="fname"></div>
+                    <div class="form-group">
+                    <label for="lname">Last Name</label>
+                    <input class="form-control" style="font-size:20px; color:black" type="text" id="lname" name="lastname" placeholder="last name.."   ng-model="lname"></div>
+
+                    <div class="form-group">
+                    <label for="lname">Number of members</label>
+                    <input class="form-control" style="font-size:20px; color:black" type="text" id="members" name="members"  ng-model="members"></div>
+
+                    <div><label for="package">Package </label>
+                  <select style="font-size:20px; color:black" id="package" name="package" required ng-model="package">
+                    <option value="3000" selected>Banglore</option>
+                      <option value="4000">Mysore</option>
+                        <option value="3000">Belgum</option>
+                          <option value="5000">Hubli</option>
+                      <option value="3000">Manglore</option>
+
+                  </select></div>
+                  <h2 ng-model="finalPrice"style="color:red;" > Price ={{package*members}} RS</h2><br>
+
+                    <div class="form-group">
+                                      <label for="arrivaldate">Arriving date</label>
+                                      <input style="font-size:20px; color:black" class="form-control" type="date" id="date" name="arrivaldate"   required ng-model="arrivaldate"></div>
+
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input style="font-size:20px; color:black" class="form-control" type="email" id="fname" name="mailid" placeholder="jhon@gmail.com"  required ng-model="mailid"></div>
+                    <div class="form-group">
+                    <label for="phoneno">Mobile No</label>
+                    <input style="font-size:20px; color:black" class="form-control" type="tel" id="fname" name="phoneno" placeholder="phone no.."  required ng-model="phone"></div>
+
+                    <div class="form-group"><label for="address">Address</label>
+                    <textarea style="font-size:20px; color:black" class="form-control"  id="requirement" name="address" placeholder="Address" style="height:170px"  required ng-model="address"></textarea></div>
+                    <input type="submit"  ng-click="givesbanglore()">
+
+                </form>
+
+              </div>
+            </div>
+</div>
+<div id="main3" class="footer" style="background-color:black ;margin-top:105rem;" >
+  <br>
+    <div class="row"  >
+      <div class="col-offset-2 col-md-4 col-xs-12">
+        <h1>KARNATAKA TOURISM</h1>
+        <p id="text4" >If whitewaters are your kind of rush, Karnataka has some rather good spots set in pictures queue locales. Not that you'd be focusing on the scenery.</p>
+      </div>
+    <div class="col-md-4 col-xs-12">
+<h1>Contact Info</h1>
+
+             <p><span class="glyphicon glyphicon-earphone"></span> PhoneNo:+919008645755</p>
+
+              <h4>&#x24B8;copyright Karnataka Travel Opedia 2017-18</h4>
+
+</div>
+<div class="col-md-4 col-xs-12">
+  <h1>Address</h1>
+  <p>115/B, 25th Cross Rd, 2nd Block,<br> Rajaji Nagar,<br> Bengaluru, Karnataka 560010</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>

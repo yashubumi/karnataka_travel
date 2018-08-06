@@ -1,6 +1,11 @@
 <html>
 <head>
   <link rel="stylesheet" href="stylesheet/aboutus.css">
+  <link rel="stylesheet" href="stylesheet/gallery.css">
+  <link rel="stylesheet" href="stylesheet/style.css">
+  <link rel="stylesheet" href="stylesheet/footer.css">
+
+
   <!-- Latest compiled and minified CSS -->
   <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
   <!-- Latest compiled and minified JavaScript -->
@@ -9,103 +14,123 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Ruthie" rel="stylesheet">
   <script src="js/app.js" charset="utf-8"></script>
-  <!-- Latest compiled and minified CSS -->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
- <!-- jQuery library -->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
- <!-- Latest compiled JavaScript -->
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Farsan" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 
+  <script src="js/avail_js.js"></script>
+  <style>
+  #fh{
+    color:white;
+    font-size:55px;
+    font-weight: 100rem;
+    font-family: 'Dancing Script', cursive;
+
+  }
+  #fi{
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+
+  }
+
+</style>
 </head>
-<body ng-app="myApp" ng-controller="myController" style="background-color:black;">
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div  id="topnav">
-     <div id="drop" class="div1">
-     <ul>
-        <li><a href="enterpage.html">Home</a></li>
-        <li><a href="gallery.html">Images</a></li>
-       <li><a href="travel.html">Travel facility</a></li>
-       <li><a href="videos.html">Foodies</a></li>
-        <li><a href="#!packages">Packages</a></li>
-        <li><a href="hotelBooking.html">Hotel facility</a></li>
+<body ng-app="myApp"  style="background-color:black;">
 
-  </ul>
-  </div>
-  </div>
-  </nav>
+      <div class="row" style="background-color:#444444;" id="head">
+        <!--   <img class="col-xs-2"src="images/logopakka.jpg" alt="logo image" width="5%" height="15%">-->
+             <h1 class="col-xs-4">KARNATAKA TOURISM<h1></li>
+             </div>
+             <div class="row"  style="background-color:#444444;" id="subtitle">
+         <h4 class="col-xs-offset-4">
+           -one state many world...<h4></li>
+         </div>
 
+   <div>
+             <nav class="navbar navbar-inverse">
+               <div  id="topnav">
+                <div class="div1">
+                <ul>
+                  <li><a href="enterpage.html">Home</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                 <li><a href="travel.html">Services</a></li>
+                 <li><a href="cities.html">Packages</a></li>
+                 <li><a href="contact.html">Contact us</a></li>
+                 <li><a href="faq.html">Faq</a></li>
+                 <li><a href="feedback form.html">Feedback</a></li>
+                 <li><a href="aboutus.html">About us</a></li>
+            </ul>
+             </div>
+             </div>
+             </nav>
   <br>
-  <div id="mm">
+  <div id="mm" style="margin-top:-5rem; ">
     <img src="images1/B.JPG" >
   </div>
-  <h2 style="color:; margin-left:15%">Feed back form</h2>
-<div class="row">
+  <h2 style=" margin-left:15%" id="fh">Contact</h2>
+  <div  ng-controller="myControllerContact" style="background-color:black;">
+          <div >
+          <!-- <div class="ng-view ng-scope"> -->
+          <div class="row " id="center">
+
+<div class="row" id="fi">
+
    <div class="col-xs-offset-1 col-xs-3">
     <form>
         <div class="form-group">
         <label for="firstname"><h3>Your Name:</h3></label>
-        <input type="text" class="form-control" id="fn" placeholder="Your Name" ng-model="name" name="first name">
+        <input style="font-size:20px; color:black" type="text" class="form-control" id="fn" placeholder="Your Name" required ng-model="name" name="first name">
       </div>
        <div class="form-group">
         <label for="email"><h3>Email:</h3></label>
-        <input type="email" class="form-control" id="email" placeholder="Email" ng-model="email" name="email">
+        <input style="font-size:20px; color:black" type="email" class="form-control" id="email" placeholder="Email" required ng-model="email" name="email">
       </div>
       <div class="form-group">
         <label for="phno"><h3>Phone Number:</h3></label>
-        <input type="text" class="form-control" id="ph" placeholder="Phone" ng-model="phone"name="phone number">
+        <input style="font-size:20px; color:black" type="text" class="form-control" id="ph" placeholder="Phone"  required ng-model="mobile"name="phone number">
       </div>
       <div class="form-group">
         <label for="comment"><h3>Message:</h3></label>
-        <textarea type="text" class="form-control" id="ad" placeholder="Message" ng-model="address" name="address"></textarea>
+        <textarea style="font-size:20px; color:black" type="text" class="form-control" id="ad" placeholder="Message" required ng-model="address" name="address"></textarea>
       </div>
       <div>
-        <a  class="btn btn-primary"type="submit" ng-click="submitFeedback()"><span>Send Message</span></a>
-        </div>
+
+                <button style="font-size:20px; color:white; background-color:orange;margin-left: 8rem;height: 50px;width:20rem;"class="button button2" type="submit" ng-click="giveContact()"><span>Send Message</span></a></div>
     </form>
 </div>
    <div class="col-xs-offset-1 col-xs-3">
-     <h2 style="color:white; margin-left:80%;">Location</h2>
+     <h2 style="color:white; margin-left:80%;" id="fh">Location</h2>
      <h3 style="color:white;margin-left:8rem; text-align:left;">115/B, 25th Cross Rd, 2nd Block, Rajaji Nagar,<br> Bengaluru, Karnataka 560010</h3>
 <iframe style=" margin-left:20%; "src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.617387567031!2d77.54934161423094!3d12.99630629083972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d8fcc8eb275%3A0xd13b2e264f4a9d50!2sHealth+%26+Glow!5e0!3m2!1sen!2sin!4v1532688476160" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>   </div>
 </div>
-<br>
-    <div id="main3" class="footer" >
-      <div class="row">
-      <div class="col-md-3 col-xs-12">
-
-               <li info><a href="aboutus.html">About us</a></li>
+<hr>
+<div id="main3" class="footer" >
+  <br>
+    <div class="row"  >
+      <div class="col-offset-2 col-md-4 col-xs-12">
+        <h1>KARNATAKA TOURISM</h1>
+        <p id="text4" >If whitewaters are your kind of rush, Karnataka has some rather good spots set in pictures queue locales. Not that you'd be focusing on the scenery.</p>
       </div>
-        <div class="col-md-2 col-xs-12">
-           <li info ><a href="contact.html">contact us</a></li>
-          </div>
-          <div class="col-md-2 col-xs-12">
-             <li info ><a href="Reviews.html">Reviews</a></li>
-            </div>
-            <div class="col-md-2 col-xs-12">
-               <li info ><a href="FAQ'S.html">FAQ'S</a></li>
-              </div>
+    <div class="col-md-4 col-xs-12">
+<h1>Contact Info</h1>
 
-    <div class="col-md-3 col-xs-12">
+             <p><span class="glyphicon glyphicon-earphone"></span> PhoneNo:+919008645755</p>
 
-      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        </div>
-      </div>
-        <br>
-        <div class="row" >
-        <div class="col-md-12 col-xs-12">
+              <h4>&#x24B8;copyright Karnataka Travel Opedia 2017-18</h4>
 
-                 <p><span class="glyphicon glyphicon-earphone"> Phone no:</span> +919008645755</p>
-                  <p><span class="  glyphicon glyphicon-envelope"></span> emali:KTO@gmail.com</p>
-                  <h4>&#x24B8;copyright Karnataka Travel Opedia 2017-18</h4>
-
-    </div>
-
-    </div>
-    </div>
+</div>
+<div class="col-md-4 col-xs-12">
+  <h1>Address</h1>
+  <p>115/B, 25th Cross Rd, 2nd Block,<br> Rajaji Nagar,<br> Bengaluru, Karnataka 560010</p>
+</div>
+</div>
+</div>
 </body>
 </html>

@@ -1,0 +1,61 @@
+[{
+      "name":"Grand Dragon Ladakh",
+      "price":60000,
+      "location":"Leh",
+      "exp":"Available"
+  },{
+    "name":"Panchami Pavilion",
+    "price":40000,
+    "location":"Kanakpura Road,Bangalore",
+    "exp":"Available"
+  },{
+    "name":"country Club Inn ",
+    "price":45000,
+    "location":"Bellandur",
+    "exp":"NotAvailable"
+  },{
+    "name":"Golden Palms Hotel and Spa",
+    "price":28000,
+    "location":"Tumkur Road,Bangalore",
+    "exp":"Available"
+  },{
+    "name":"Manipal County Resort",
+    "price":50000,
+    "location":"Hosur Road,Bangalore",
+    "exp":"Available"
+  },{
+      "name":"Clarks Exotica Resort ",
+      "price":80000,
+      "location":"Devanahalli,Bangalore",
+      "exp":"Available"
+      },{
+        "name":"The Taj West End",
+        "price":50000,
+        "location":"Bangalore",
+        "exp":"Available"
+        },{
+          "name":"Woodrose Club",
+          "price":25000,
+          "location":"Bangalore",
+          "exp":"Available"
+          },{
+            "name":"Ritz Carlton",
+            "price":100000,
+            "location":"Bangalore",
+            "exp":"Available"
+            },{
+              "name":"Apporva Resort",
+              "price":25000,
+              "location":"Davangere",
+              "exp":"Available"
+              },{
+                "name":"Ayodhya Resort",
+                "price":20000,
+                "location":"Haveri",
+                "exp":"Available"
+                },{
+                  "name":"Jungle Resort",
+                  "price":10000,
+                  "location":"Shimoga",
+                  "exp":"Available"
+                  }]

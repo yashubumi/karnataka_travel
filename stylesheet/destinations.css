@@ -1,63 +1,4 @@
 
-#topnav ul{
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-#topnav ul li{
-  display: block;
-  position: relative;
-  float: left;
-  width: 13%;
-  align-items: center;
-}
-#topnav li ul{
-  display: none;
-}
-#topnav ul li a{
-  font-family:'Farsan', cursive;
-  display: block;
- padding: 5px 10px 5px 10px;
-  text-decoration: none;
-  font-size: 3rem;
-  color: white;
-  white-space: nowrap;
-  padding-left: 5rem;
-}
-#topnav ul li a:hover{
-  font-size: 3.5rem;
-text-decoration: underline;
-
-}
-#topnav li:hover ul{
-  display: block;
-  position: absolute;
-}
-#topnav li:hover li{
-  float: none;
-}
-
-#topnav li:hover li a:hover
-{
-  font-size: 15px;
-}
-#topnav li ul li a{
-  border-top: 0px;
-  font-size: 18px;
-}
-#topnav #drop ul li ul{
-  position: relative;
-  z-index: 999;
-}
-
-#main3{
-  font-family:'Farsan';
-  font-size:3rem;
-  text-align: center;
-color: white;
-
-}
 * {
     box-sizing: border-box;
 }
@@ -115,6 +56,7 @@ h1 {
     }
 }
 
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column {
@@ -123,4 +65,36 @@ h1 {
 }
 #heading{
   text-align: center;
+}
+#close{
+  right:5;
+top:5;
+float: right;
+}
+
+#a1{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  font-size: 50px;
+}
+#a2{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  font-size: 20px;
+}
+#a{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  font-size: 80px;
+}
+#ab{
+  background-image: url('../gallery/b1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 }
