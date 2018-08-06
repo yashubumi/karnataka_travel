@@ -89,16 +89,19 @@ $scope.givesbanglore=function(){
        console.log(banglore);
 
        $http.post("http://localhost:3000/bangalore",banglore).then(function(response){
-console.log("----bangalore------");
-           console.log(response.data);
+
+         console.log("----bangalore------");
+          console.log(response.data);
+
            $scope.msg=response.data;
            $scope.fname="";
            $scope.lname="";
            $scope.members="";
-            $scope.arrivaldate="";
+           $scope.arrivaldate="";
            $scope.mailid="";
            $scope.address="";
            $scope.phone="";
+
            alert("Thank you for registration");
        })
 
